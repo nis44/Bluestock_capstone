@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/db/*.db
+data/processed/*.tmp
+reports/charts/*.tmp
