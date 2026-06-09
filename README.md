@@ -7,6 +7,10 @@ End-to-end internship capstone project for a Mutual Fund Analytics Platform.
 - Day 1: Project setup, raw dataset ingestion, data quality report, live NAV fetch script.
 - Day 2: Data cleaning, processed CSV outputs, SQLite schema, database load, analytical SQL queries, data dictionary.
 - Day 3: Exploratory data analysis, chart exports, findings summary.
+- Day 4: Fund performance analytics, alpha/beta, tracking error, and scorecard.
+- Day 5: Dashboard-ready extracts and Power BI build guide.
+- Day 6: Advanced analytics, VaR/CVaR, rolling Sharpe, cohorts, SIP continuity, sector HHI, recommender.
+- Day 7: Final PDF report, PowerPoint deck, and submission checklist.
 
 ## Project Structure
 
@@ -34,6 +38,10 @@ python scripts/data_ingestion.py
 python scripts/live_nav_fetch.py
 python scripts/clean_and_load.py
 python scripts/eda_analysis.py
+python scripts/compute_metrics.py
+python scripts/advanced_analytics.py
+python scripts/prepare_dashboard.py
+python scripts/generate_final_assets.py
 ```
 
 ## Main Outputs
@@ -47,6 +55,12 @@ python scripts/eda_analysis.py
 - `data/processed/data_dictionary.md`
 - `reports/EDA_Findings.md`
 - `reports/charts/*.png`
+- `data/processed/fund_scorecard.csv`
+- `data/processed/var_cvar_report.csv`
+- `dashboard/extracts/*.csv`
+- `dashboard/PowerBI_Dashboard_Build_Guide.md`
+- `reports/Final_Report.pdf`
+- `reports/Bluestock_MF_Presentation.pptx`
 
 ## Notes
 

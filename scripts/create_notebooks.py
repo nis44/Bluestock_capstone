@@ -43,6 +43,34 @@ def main() -> None:
                 "%run ../scripts/eda_analysis.py",
             ],
         ),
+        "04_performance_analytics.ipynb": make_notebook(
+            "Day 4 Fund Performance Analytics",
+            "Computes CAGR, Sharpe, Sortino, alpha, beta, tracking error, drawdown, and scorecard outputs.",
+            [
+                "%run ../scripts/compute_metrics.py",
+            ],
+        ),
+        "05_dashboard_preparation.ipynb": make_notebook(
+            "Day 5 Dashboard Preparation",
+            "Exports dashboard-ready CSV files and writes the Power BI build guide.",
+            [
+                "%run ../scripts/prepare_dashboard.py",
+            ],
+        ),
+        "06_advanced_analytics.ipynb": make_notebook(
+            "Day 6 Advanced Analytics",
+            "Computes VaR/CVaR, rolling Sharpe, cohorts, SIP continuity, sector HHI, and recommendation logic.",
+            [
+                "%run ../scripts/advanced_analytics.py",
+            ],
+        ),
+        "07_final_assets.ipynb": make_notebook(
+            "Day 7 Final Assets",
+            "Generates the final PDF report, PowerPoint presentation, and submission checklist.",
+            [
+                "%run ../scripts/generate_final_assets.py",
+            ],
+        ),
     }
     output_dir = ROOT / "notebooks"
     output_dir.mkdir(exist_ok=True)

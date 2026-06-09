@@ -9,3 +9,5 @@ jupyterlab>=4.0
 scipy>=1.10
 pypdf>=4.0
 gdown>=6.1
+reportlab>=4.5
+python-pptx>=1.0
