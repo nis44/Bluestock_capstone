@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+~$*.pptx
+~$*.docx
 data/db/*.db
 data/processed/*.tmp
 reports/charts/*.tmp
