@@ -18,7 +18,7 @@ End-to-end internship capstone project for a Mutual Fund Analytics Platform.
 data/raw/          Original downloaded project CSVs and PDF
 data/processed/    Cleaned CSVs and generated reports
 data/db/           SQLite database output
-notebooks/         Notebook-style analysis notes
+notebooks/         Full code notebooks with embedded script implementations
 scripts/           Python ETL and analytics scripts
 sql/               Database schema and analytical queries
 reports/           Markdown reports and exported charts
